@@ -24,7 +24,7 @@ $> docker run \
     --rm \
     -v '<path_to_your_nim_sources_folder>:/tmp/src' \
     -v '<path_to_compilation_destination>:/tmp/target' \
-    xxlabaza/nim:compiler \
+    xxlabaza/nim:0.17.0 \
     compile --define:release \
             --symbolFiles:off \
             --nimcache:/tmp/src/cache \
